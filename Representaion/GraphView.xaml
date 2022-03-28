@@ -80,7 +80,7 @@
                     <TextBlock x:Name="TextBlockMap"     
                                 
                               HorizontalAlignment="Right"
-                              Text="Map" />
+                              Text="MAP" />
                 </Grid>
             </Button>
         </StackPanel>

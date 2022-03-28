@@ -76,8 +76,8 @@ namespace Representaion
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
-            string fromDate = From.SelectedDate.Value.ToShortDateString();
-            string toDate = To.SelectedDate.Value.ToShortDateString();
+            string fromDate = From.SelectedDate.Value.ToString("yyyy-MM-dd");
+            string toDate = To.SelectedDate.Value.ToString("yyyy-MM-dd");
             CountryPieDataDTO selected = (CountryPieDataDTO)ComboBoxCountries.SelectedItem;
             string name = selected.Slug;
             List<CountryByDay> dataByDay = new List<CountryByDay>();
